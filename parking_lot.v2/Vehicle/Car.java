@@ -1,6 +1,6 @@
 package Vehicle;
 public class Car extends Vehicle {
-    Car(String number){
+    public Car(String number){
         super(number, VehicleType.CAR);
     }
 }

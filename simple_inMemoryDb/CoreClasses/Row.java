@@ -20,6 +20,8 @@ public class Row{
         return this.RowId;
     }
 
+
+    
     public void setColumn(String columnName, String value) {    
         this.Columns.put(columnName, value);
         this.updatedAt = new Date();
